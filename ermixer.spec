@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		Applications/Mail
 Source0:	http://erevan.cuore.org/files/ermixer/%{name}-%{version}.tar.gz
+# Source0-md5:	ce6e896c7c2678c98ff9d841d3504003
 Patch0:		%{name}-curses.patch
 URL:		http://ermixer.sourceforge.net/
 BuildRequires:	autoconf
