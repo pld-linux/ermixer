@@ -1,5 +1,5 @@
-Summary:	Audio mixer.
-Summary(pl):	Mixer audio, konkurencja dla aumix'a.
+Summary:	Audio mixer
+Summary(pl):	Mikser audio, konkurencja dla aumiksa
 Name:		ermixer
 Version:	0.8
 Release:	1
