@@ -4,7 +4,7 @@ Name:		ermixer
 Version:	0.8
 Release:	1
 License:	GPL
-Group:		Applications/Mail
+Group:		Applications/Sound
 Source0:	http://erevan.cuore.org/files/ermixer/%{name}-%{version}.tar.gz
 # Source0-md5:	ce6e896c7c2678c98ff9d841d3504003
 Patch0:		%{name}-curses.patch
@@ -38,7 +38,9 @@ ncurses.
 %{__autoconf}
 %{__automake}
 %configure
-%{__make} CC="%{__cc} %{rpmcflags} -I/usr/include/ncurses"
+%{__make} \
+	CC="%{__cc}" \
+	CFLAGS="%{rpmcflags} -I/usr/include/ncurses"
 
 %install
 rm -rf $RPM_BUILD_ROOT
