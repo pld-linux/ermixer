@@ -1,4 +1,3 @@
-
 Summary:	Audio mixer.
 Summary(pl):	Mixer audio, konkurencja dla aumix'a.
 Name:		ermixer
@@ -23,7 +22,10 @@ curses interface or with a command line interface (usefull for use it
 in scripts).
 
 %description -l pl
-Mikser muzyczny z masa uzytecznych opcji, konkurencja dla aumix'a.
+Mikser muzyczny z mas± u¿ytecznych opcji, takich jak profile, obs³uga
+w czasie rzeczywistym, oferuje pe³ny interfejs mixerski. Mo¿esz u¿ywaæ
+go z linii komend (przydatne w skryptach) lub skorzystaæ z interfejsu
+ncurses.
 
 %prep
 %setup -q
