@@ -1,5 +1,5 @@
 Summary:	Audio mixer
-Summary(pl):	Mikser audio, konkurencja dla aumiksa
+Summary(pl.UTF-8):   Mikser audio, konkurencja dla aumiksa
 Name:		ermixer
 Version:	0.8
 Release:	1
@@ -22,10 +22,10 @@ interface to the mixer capatibilities. You can use it with a nice
 curses interface or with a command line interface (usefull for use it
 in scripts).
 
-%description -l pl
-Mikser muzyczny z mas± u¿ytecznych opcji, takich jak profile, obs³uga
-w czasie rzeczywistym, oferuje pe³ny interfejs mixerski. Mo¿esz u¿ywaæ
-go z linii komend (przydatne w skryptach) lub skorzystaæ z interfejsu
+%description -l pl.UTF-8
+Mikser muzyczny z masÄ… uÅ¼ytecznych opcji, takich jak profile, obsÅ‚uga
+w czasie rzeczywistym, oferuje peÅ‚ny interfejs mixerski. MoÅ¼esz uÅ¼ywaÄ‡
+go z linii komend (przydatne w skryptach) lub skorzystaÄ‡ z interfejsu
 ncurses.
 
 %prep
